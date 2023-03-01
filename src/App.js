@@ -3,19 +3,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul className="Navigation-Bar">
+        <li className='Navigation-Item'>Home</li>        
+        <li className='Navigation-Item'>Areas</li>
+        <li className='Navigation-Item'>Characters</li>
+        <li className='Navigation-Item'>Attractions</li>
+        <li className='Navigation-Item'>Concessions</li>
+        <li className='Navigation-Item'>Restaurants</li>        
+        <li className='Navigation-Item'>About Us</li>
+      </ul>
+      <span>test</span>
     </div>
   );
 }

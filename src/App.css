@@ -1,0 +1,22 @@
+.App {
+  box-sizing: border-box;
+}
+
+.Navigation-Bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #06f;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.Navigation-Item {
+  padding: 10px 20px;
+  display: inline;
+  font-size: 18px;
+  color: #fff;
+}
+
+.Navigation-Item:hover {  
+  background-color: #0cf;
+}
