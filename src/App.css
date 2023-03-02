@@ -1,4 +1,4 @@
-.App {
+.Navigate, .App {
   box-sizing: border-box;
 }
 
@@ -10,13 +10,30 @@
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.Navigation-Item {
+.Navigation-Item{
   padding: 10px 20px;
   display: inline;
   font-size: 18px;
   color: #fff;
+  text-decoration: none;
 }
 
 .Navigation-Item:hover {  
   background-color: #0cf;
+}
+
+.No-Decor, .No-Decor:visited, .No-Decor:active, .No-Decor:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Notice{
+  font-family: Open Sans, Tahoma, Verdana, Geneva, sans-serif;
+  font-size: 10px;
+  position: fixed;
+  padding: 3px 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #cef;
 }
