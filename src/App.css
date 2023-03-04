@@ -37,3 +37,8 @@
   width: 100%;
   background-color: #cef;
 }
+
+.Body-Text {
+  font-size: 13px;
+  font-family: Open Sans, Tahoma, Verdana, Geneva, sans-serif;
+}
