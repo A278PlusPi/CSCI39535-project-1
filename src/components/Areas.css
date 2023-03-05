@@ -1,0 +1,60 @@
+.Toontown {
+  font-size: 19px;
+  color: #f00;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #fc0;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Tomorrowland {
+  font-size: 19px;
+  color: #90f;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #9f9;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Fantasyland {
+  font-size: 19px;
+  color: #f0f;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #fcf;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Frontierland {
+  font-size: 19px;
+  color: #630;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #f60;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Adventureland {
+  font-size: 19px;
+  color: #90c;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #f00;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Park-Images {
+  width: 300px;
+  float: right;
+  padding: 10px;
+}
