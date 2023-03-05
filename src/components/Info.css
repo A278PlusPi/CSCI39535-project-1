@@ -1,5 +1,10 @@
+.Card-Series {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .Info-Images {
-  width: 300px;
+  width: 240px;
   float: right;
   padding: 10px;
 }
@@ -7,22 +12,23 @@
 .Info-Card {
   display: inline-block;
   box-sizing: border-box;
-  width: 100%;
+  min-width: 500px;
   padding: 10px;
+  flex: 1;
 }
 
-@media screen and (min-width: 1200px) {
-  .Info-Card {
-    width: calc(50%);
+@media (max-width: 550px){
+  .Info-Images {
+    width: 100%;
+  }
+
+  .Info-Card {    
+    min-width: 275px;
   }
 }
 
-@media screen and (min-width: 1800px) {
-  .Info-Card {
-    width: calc(33.3%);
+@media (max-width: 300px){
+  .Info-Card {    
+    min-width: 150px;
   }
-}
-
-.Main-Content{
-  display: flexbox;
 }
