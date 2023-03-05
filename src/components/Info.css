@@ -1,0 +1,28 @@
+.Info-Images {
+  width: 300px;
+  float: right;
+  padding: 10px;
+}
+
+.Info-Card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .Info-Card {
+    width: calc(50%);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .Info-Card {
+    width: calc(33.3%);
+  }
+}
+
+.Main-Content{
+  display: flexbox;
+}
