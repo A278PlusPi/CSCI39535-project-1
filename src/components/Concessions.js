@@ -1,4 +1,5 @@
-import './Concessions.css';
+import './Info.css';
+
 import CottonCandy from './images/concession-cotton-candy-cart.webp';
 import Hat from './images/concession-hat-emporium.webp';
 import IceCream from './images/concession-ice-cream-stand.webp';
