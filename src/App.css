@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Waltograph";
+  src: local("Waltograph"), url(./components/fonts/waltograph42.otf);
+}
+
+.Waltograph-Header {
+  font-family:"Waltograph";
+  font-size: 30px;
+}
+
 .Navigate, .App {
   box-sizing: border-box;
 }
@@ -35,5 +45,33 @@
   bottom: 0;
   text-align: center;
   width: 100%;
-  background-color: #cef;
+  background-color: #fff;
+}
+
+.Main-Content {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: #ffffffdd;
+  border-radius: 10px;
+}
+
+.H1-Text {
+  font-size: 19px;
+  color: #06f;
+  font-family: Avenir Next, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: #0cf;
+  border-bottom-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.Body-Text {
+  font-size: 13px;
+  font-family: Open Sans, Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.Homepage-Images {
+  display: flex;
+  justify-content: center;
 }

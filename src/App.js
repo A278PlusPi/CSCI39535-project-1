@@ -7,12 +7,13 @@ import Attractions from './components/Attractions';
 import Concessions from './components/Concessions';
 import Restaurants from './components/Restaurants';
 import AboutUs from './components/AboutUs';
+import DisneyBG from './components/images/background-disney-wallpaper-small.png';
 
 import {Routes, Route, Outlet, Link} from "react-router-dom";
 
 export default function App() {
   return (
-    <div>
+    <div style={{backgroundImage:`url(${DisneyBG})`, backgroundRepeat:"repeat", width:"100%", minHeight:"100vh"}}>
       <Routes>
         <Route path="/" element={<Layout/>}>          
           <Route index element = {<Home/>} />
