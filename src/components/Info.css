@@ -17,6 +17,14 @@
   flex: 1;
 }
 
+.Caption {  
+  font-family: Open Sans, Tahoma, Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  color: #009;
+}
+
 @media (max-width: 550px){
   .Info-Images {
     width: 100%;
@@ -30,5 +38,47 @@
 @media (max-width: 300px){
   .Info-Card {    
     min-width: 150px;
+  }
+}
+
+.Concession-Card-Series {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  flex-wrap: wrap;
+}
+
+.Concession-Images {
+  width: 100%;
+  padding: 10px;
+}
+
+.Concession-Card {
+  display: block;
+  box-sizing: border-box;
+  min-width: 240px;
+  padding: 10px;
+  flex: 1;
+}
+
+.Caption {  
+  font-family: Open Sans, Tahoma, Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  color: #009;
+}
+
+@media (max-width: 275px){
+  .Concession-Images {
+    width: 100%;
+  }
+
+  .Concession-Card {    
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 150px){
+  .Concession-Card {    
+    min-width: 80px;
   }
 }

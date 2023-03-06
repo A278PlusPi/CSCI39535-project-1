@@ -1,5 +1,7 @@
 import './App.css';
 
+import { useState } from "react";
+
 import Home from './components/Home';
 import Areas from './components/Areas';
 import Characters from './components/Characters';
