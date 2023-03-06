@@ -11,14 +11,17 @@ function Concessions() {
   return (
     <div>
        <div class = "Main-Content">
-
-        <div class = "Card-Series">
-          <div class = "Info-Card">
+        <div class = "Body-Text" style = {{fontSize:"18px", textAlign:"center"}}>
+        These are all the concessions I have hand-picked for you to check out when you have time. Although characters and attractions is the dominant part of Disney's theme parks, concessions are as important as guests would need to stop for snacks and drinks at some point during their visits. Disney parks (or any theme park) won't be complete without them! In Disney Magic Kingdoms, they have different rarities, as well as the rate of magic being produced. These guests would surely enjoy them a lot in Disney Magic Kingdoms!
+        </div>
+        <br></br>
+        <div class = "Concession-Card-Series">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               Cotton Candy Cart
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={CottonCandy} 
               alt="Cotton Candy Cart"
               ></img>
@@ -30,12 +33,12 @@ function Concessions() {
             </div>
           </div>
 
-          <div class = "Info-Card">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               Hat Emporium
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={Hat} 
               alt="Hat Emporium"
               ></img>
@@ -47,12 +50,12 @@ function Concessions() {
             </div>
           </div>
 
-          <div class = "Info-Card">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               Ice Cream Stand
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={IceCream} 
               alt="Ice Cream Stand"
               ></img>
@@ -64,12 +67,12 @@ function Concessions() {
             </div>
           </div>
 
-          <div class = "Info-Card">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               Mickey's Candy Apple Stand
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={CandyApple} 
               alt="Mickey's Candy Apple Stand"
               ></img>
@@ -81,12 +84,12 @@ function Concessions() {
             </div>
           </div>
 
-          <div class = "Info-Card">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               Popcorn Cart
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={Popcorn} 
               alt="Popcorn Cart"
               ></img>
@@ -97,12 +100,12 @@ function Concessions() {
             </div>
           </div>
 
-          <div class = "Info-Card">
+          <div class = "Concession-Card">
             <div class = "H1-Text">
               WDW 50th Anniversary Hat Stand
             </div>
             <img
-              class="Info-Images"
+              class="ConcessionManaged -Images"
               src={WDW50} 
               alt="WDW 50th Anniversary Hat Stand"
               ></img>
