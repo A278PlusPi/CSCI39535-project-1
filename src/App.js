@@ -27,7 +27,7 @@ export default function App() {
           <Route path="aboutus" element={<AboutUs/>} />
         </Route>
       </Routes>      
-    <div class='Notice'>©2023 Anthony Regner (<span style={{color:'#f00'}}>A</span><span style={{color:'#00f'}}>278</span><span style={{color:'#f60'}}>+π</span>). All images presented on this website are the proerty of Disney and Gameloft. Information is presented only for the purposes of completing the UI/UX Design assignment.</div>      
+    <div class='Notice'>©2023 Anthony Regner (<span style={{color:'#f00'}}>A</span><span style={{color:'#00f'}}>278</span><span style={{color:'#f60'}}>+π</span>). All images presented on this website are the property of Disney and Gameloft. Information is presented only for the purposes of completing the UI/UX Design assignment.</div>      
     </div>
   );
 }

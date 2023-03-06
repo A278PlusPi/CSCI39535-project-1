@@ -1,3 +1,11 @@
+.Info-Card {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 500px;
+  padding: 10px;
+  flex: 1;
+}
+
 .Toontown {
   font-size: 19px;
   color: #f00;
@@ -57,4 +65,25 @@
   width: 300px;
   float: right;
   padding: 10px;
+}
+
+.Card-Series {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 550px){
+  .Park-Images {
+    width: 100%;
+  }
+
+  .Info-Card {    
+    min-width: 275px;
+  }
+}
+
+@media (max-width: 300px){
+  .Info-Card {    
+    min-width: 150px;
+  }
 }

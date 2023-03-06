@@ -12,7 +12,7 @@ function Concessions() {
     <div>
        <div class = "Main-Content">
         <div class = "Body-Text" style = {{fontSize:"18px", textAlign:"center"}}>
-        These are all the concessions I have hand-picked for you to check out when you have time. Although characters and attractions is the dominant part of Disney's theme parks, concessions are as important as guests would need to stop for snacks and drinks at some point during their visits. Disney parks (or any theme park) won't be complete without them! In Disney Magic Kingdoms, they have different rarities, as well as the rate of magic being produced. These guests would surely enjoy them a lot in Disney Magic Kingdoms!
+        These are all the concessions I have hand-picked for you to check out when you have time. Although characters and attractions are the dominant part of Disney's theme parks, concessions are as important as guests would need to stop for snacks and drinks at some point during their visits. Disney parks (or any theme park) won't be complete without them! In Disney Magic Kingdoms, they have different rarities, as well as the rate of magic being produced. These guests would surely enjoy them a lot in Disney Magic Kingdoms!
         </div>
         <br></br>
         <div class = "Concession-Card-Series">
