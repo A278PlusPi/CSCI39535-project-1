@@ -25,6 +25,7 @@ export default function App() {
           <Route path="concessions" element={<Concessions/>} />
           <Route path="restaurants" element={<Restaurants/>} />
           <Route path="aboutus" element={<AboutUs/>} />
+          <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>      
     <div class='Notice'>©2023 Anthony Regner (<span style={{color:'#f00'}}>A</span><span style={{color:'#00f'}}>278</span><span style={{color:'#f60'}}>+π</span>). All images presented on this website are the property of Disney and Gameloft. Information is presented only for the purposes of completing the UI/UX Design assignment.</div>      
@@ -50,4 +51,17 @@ function Layout() {
       <Outlet />
       </div>
   );
+}
+
+function NoMatch() {
+  return (
+    <div className="Main-Content-NF">
+      <div className="H1-Text-NF">
+        Oh no! The magic just isn't here!
+      </div>
+      <div className="Body-Text" style = {{textAlign:"center"}}>
+        Please visit one of the above links to get what you are looking for.
+      </div>
+    </div>
+  )
 }
