@@ -12,5 +12,6 @@ function AboutUs() {
       </div>
     </div>
   );
+}
 
 export default AboutUs;
