@@ -34,7 +34,7 @@ function Restaurants() {
               alt="Pizza Planet"
               ></img>
             <div class = "Body-Text">
-              Pizza Planet is a space-themed restaurant that has originally appeared in Toy Story. In Disneyland, it originally opened at "Redd Rockett's Pizza Port" on May 22, 1998, but almost 20 years, it re-opened on April 13, 2018 as "Alien Pizza Planet" during Pixar Fest. This restaurant serves pizza, pasta, and salads.
+              Pizza Planet is a space-themed restaurant that has originally appeared in Toy Story. In Disneyland, it originally opened at "Redd Rockett's Pizza Port" on May 22, 1998, but almost 20 years later, it re-opened on April 13, 2018 as "Alien Pizza Planet" during Pixar Fest. This restaurant serves pizza, pasta, and salads.
             </div>
           </div>
 
